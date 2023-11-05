@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "description": "Selenium examples for WebdriverIO and Automate",
   "scripts": {
-    "test": "npx wdio conf/base.conf.js"
+    "bs": "npx wdio conf/bs.conf.js",
+    "lt": "npx wdio conf/lt.conf.js"
   },
   "repository": {
     "type": "git"
@@ -16,7 +17,7 @@
   "dependencies": {
     "@wdio/cli": "^7",
     "chai": "^4.3.6",
-    "webdriverio": "^7",
+    "webdriverio": "8.16.7",
     "@wdio/local-runner": "*",
     "@wdio/mocha-framework": "*",
     "@wdio/sync": "*",
@@ -24,7 +25,7 @@
     "wdio-lambdatest-service": "*",
 
     "mocha": "*",
-    "selenium-webdriver": "^4.3.1"
+    "selenium-webdriver": "2.52.0"
   },
   "devDependencies": {
     "@wdio/local-runner": "^7",
